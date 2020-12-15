@@ -6,4 +6,4 @@ set -e
 apk add --no-cache g++ gcc musl-dev
 
 # build
-pip wheel -vvv --no-deps --requirement requirements.txt
+pip wheel --no-deps --requirement requirements.txt
